@@ -14,6 +14,7 @@
 		AE1CA52B2C2DD49D005A4038 /* DemoTaskListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CA52A2C2DD49D005A4038 /* DemoTaskListTests.swift */; };
 		AE1CA5352C2DD49D005A4038 /* DemoTaskListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CA5342C2DD49D005A4038 /* DemoTaskListUITests.swift */; };
 		AE1CA5372C2DD49D005A4038 /* DemoTaskListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CA5362C2DD49D005A4038 /* DemoTaskListUITestsLaunchTests.swift */; };
+		FCA931B526105FDDA18EE10E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FCA9399D5E6E39DE23F5D6D8 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		AE1CA5302C2DD49D005A4038 /* DemoTaskListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTaskListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1CA5342C2DD49D005A4038 /* DemoTaskListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTaskListUITests.swift; sourceTree = "<group>"; };
 		AE1CA5362C2DD49D005A4038 /* DemoTaskListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTaskListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCA9399D5E6E39DE23F5D6D8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				AE1CA5292C2DD49D005A4038 /* DemoTaskListTests */,
 				AE1CA5332C2DD49D005A4038 /* DemoTaskListUITests */,
 				AE1CA5162C2DD49C005A4038 /* Products */,
+				FCA9399D5E6E39DE23F5D6D8 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -235,6 +238,7 @@
 			files = (
 				AE1CA5212C2DD49D005A4038 /* Preview Assets.xcassets in Resources */,
 				AE1CA51D2C2DD49D005A4038 /* Assets.xcassets in Resources */,
+				FCA931B526105FDDA18EE10E /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +438,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.6;
@@ -472,7 +476,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.6;
